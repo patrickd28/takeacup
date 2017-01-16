@@ -17,6 +17,13 @@ DirectoryIndex app.php
     Options -MultiViews
 </IfModule>
 
+
+
+
+<VirtualHost *:80>
+    PHPINIDir /usr/php/56/etc/
+</VirtualHost>
+
 <IfModule mod_rewrite.c>
     RewriteEngine On
     RewriteBase /takeacup/web/
