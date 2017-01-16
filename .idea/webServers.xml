@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="4cfd32dd-6e3e-49b5-9234-a5ac6cd5c513" name="takeacup" url="http://formulenet.ca">
+        <fileTransfer host="formulenet.ca" port="21" rootFolder="/public_html/takeacup" username="formulen">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" />
+          </advancedOptions>
+          <option name="port" value="21" />
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>
