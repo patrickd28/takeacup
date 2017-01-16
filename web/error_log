@@ -42,3 +42,282 @@
 [16-Jan-2017 12:25:42] PHP Parse error:  syntax error, unexpected T_STRING, expecting T_CONSTANT_ENCAPSED_STRING or '(' in /home6/formulen/public_html/takeacup/web/app_dev.php on line 3
 [16-Jan-2017 12:28:13] PHP Parse error:  syntax error, unexpected T_STRING, expecting T_CONSTANT_ENCAPSED_STRING or '(' in /home6/formulen/public_html/takeacup/web/app_dev.php on line 3
 [16-Jan-2017 12:28:17] PHP Parse error:  syntax error, unexpected T_STRING, expecting T_CONSTANT_ENCAPSED_STRING or '(' in /home6/formulen/public_html/takeacup/web/app.php on line 3
+[16-Jan-2017 12:41:07] PHP Warning:  PHP Startup: Unable to load dynamic library '/usr/php/56/usr/lib64/php/modules/imagick.so' - /usr/php/56/usr/lib64/php/modules/imagick.so: undefined symbol: zend_new_interned_string in Unknown on line 0
+[16-Jan-2017 12:41:07] PHP Warning:  PHP Startup: Unable to load dynamic library '/usr/php/56/usr/lib64/php/modules/pdo_mysql.so' - /usr/php/56/usr/lib64/php/modules/pdo_mysql.so: undefined symbol: mysqlnd_allocator in Unknown on line 0
+[16-Jan-2017 12:41:07] PHP Warning:  PHP Startup: pdo_sqlite: Unable to initialize module
+Module compiled with module API=20131226, debug=0, thread-safety=0
+PHP    compiled with module API=20060613, debug=0, thread-safety=0
+These options need to match
+ in Unknown on line 0
+[16-Jan-2017 12:41:07] PHP Warning:  PHP Startup: pdo_pgsql: Unable to initialize module
+Module compiled with module API=20131226, debug=0, thread-safety=0
+PHP    compiled with module API=20060613, debug=0, thread-safety=0
+These options need to match
+ in Unknown on line 0
+[16-Jan-2017 12:41:07] PHP Parse error:  syntax error, unexpected T_STRING, expecting T_CONSTANT_ENCAPSED_STRING or '(' in /home6/formulen/public_html/takeacup/web/app.php on line 3
+[16-Jan-2017 12:42:09] PHP Warning:  PHP Startup: Unable to load dynamic library '/usr/php/56/usr/lib64/php/modules/imagick.so' - /usr/php/56/usr/lib64/php/modules/imagick.so: undefined symbol: zend_new_interned_string in Unknown on line 0
+[16-Jan-2017 12:42:09] PHP Warning:  PHP Startup: Unable to load dynamic library '/usr/php/56/usr/lib64/php/modules/pdo_mysql.so' - /usr/php/56/usr/lib64/php/modules/pdo_mysql.so: undefined symbol: mysqlnd_allocator in Unknown on line 0
+[16-Jan-2017 12:42:09] PHP Warning:  PHP Startup: pdo_sqlite: Unable to initialize module
+Module compiled with module API=20131226, debug=0, thread-safety=0
+PHP    compiled with module API=20060613, debug=0, thread-safety=0
+These options need to match
+ in Unknown on line 0
+[16-Jan-2017 12:42:09] PHP Warning:  PHP Startup: pdo_pgsql: Unable to initialize module
+Module compiled with module API=20131226, debug=0, thread-safety=0
+PHP    compiled with module API=20060613, debug=0, thread-safety=0
+These options need to match
+ in Unknown on line 0
+[16-Jan-2017 12:42:09] PHP Parse error:  syntax error, unexpected T_STRING, expecting T_CONSTANT_ENCAPSED_STRING or '(' in /home6/formulen/public_html/takeacup/web/app.php on line 3
+[16-Jan-2017 12:42:10] PHP Warning:  PHP Startup: Unable to load dynamic library '/usr/php/56/usr/lib64/php/modules/imagick.so' - /usr/php/56/usr/lib64/php/modules/imagick.so: undefined symbol: zend_new_interned_string in Unknown on line 0
+[16-Jan-2017 12:42:10] PHP Warning:  PHP Startup: Unable to load dynamic library '/usr/php/56/usr/lib64/php/modules/pdo_mysql.so' - /usr/php/56/usr/lib64/php/modules/pdo_mysql.so: undefined symbol: mysqlnd_allocator in Unknown on line 0
+[16-Jan-2017 12:42:10] PHP Warning:  PHP Startup: pdo_sqlite: Unable to initialize module
+Module compiled with module API=20131226, debug=0, thread-safety=0
+PHP    compiled with module API=20060613, debug=0, thread-safety=0
+These options need to match
+ in Unknown on line 0
+[16-Jan-2017 12:42:10] PHP Warning:  PHP Startup: pdo_pgsql: Unable to initialize module
+Module compiled with module API=20131226, debug=0, thread-safety=0
+PHP    compiled with module API=20060613, debug=0, thread-safety=0
+These options need to match
+ in Unknown on line 0
+[16-Jan-2017 12:42:10] PHP Parse error:  syntax error, unexpected T_STRING, expecting T_CONSTANT_ENCAPSED_STRING or '(' in /home6/formulen/public_html/takeacup/web/app.php on line 3
+[16-Jan-2017 12:42:11] PHP Warning:  PHP Startup: Unable to load dynamic library '/usr/php/56/usr/lib64/php/modules/imagick.so' - /usr/php/56/usr/lib64/php/modules/imagick.so: undefined symbol: zend_new_interned_string in Unknown on line 0
+[16-Jan-2017 12:42:11] PHP Warning:  PHP Startup: Unable to load dynamic library '/usr/php/56/usr/lib64/php/modules/pdo_mysql.so' - /usr/php/56/usr/lib64/php/modules/pdo_mysql.so: undefined symbol: mysqlnd_allocator in Unknown on line 0
+[16-Jan-2017 12:42:11] PHP Warning:  PHP Startup: pdo_sqlite: Unable to initialize module
+Module compiled with module API=20131226, debug=0, thread-safety=0
+PHP    compiled with module API=20060613, debug=0, thread-safety=0
+These options need to match
+ in Unknown on line 0
+[16-Jan-2017 12:42:11] PHP Warning:  PHP Startup: pdo_pgsql: Unable to initialize module
+Module compiled with module API=20131226, debug=0, thread-safety=0
+PHP    compiled with module API=20060613, debug=0, thread-safety=0
+These options need to match
+ in Unknown on line 0
+[16-Jan-2017 12:42:11] PHP Parse error:  syntax error, unexpected T_STRING, expecting T_CONSTANT_ENCAPSED_STRING or '(' in /home6/formulen/public_html/takeacup/web/app.php on line 3
+[16-Jan-2017 12:42:11] PHP Warning:  PHP Startup: Unable to load dynamic library '/usr/php/56/usr/lib64/php/modules/imagick.so' - /usr/php/56/usr/lib64/php/modules/imagick.so: undefined symbol: zend_new_interned_string in Unknown on line 0
+[16-Jan-2017 12:42:11] PHP Warning:  PHP Startup: Unable to load dynamic library '/usr/php/56/usr/lib64/php/modules/pdo_mysql.so' - /usr/php/56/usr/lib64/php/modules/pdo_mysql.so: undefined symbol: mysqlnd_allocator in Unknown on line 0
+[16-Jan-2017 12:42:11] PHP Warning:  PHP Startup: pdo_sqlite: Unable to initialize module
+Module compiled with module API=20131226, debug=0, thread-safety=0
+PHP    compiled with module API=20060613, debug=0, thread-safety=0
+These options need to match
+ in Unknown on line 0
+[16-Jan-2017 12:42:11] PHP Warning:  PHP Startup: pdo_pgsql: Unable to initialize module
+Module compiled with module API=20131226, debug=0, thread-safety=0
+PHP    compiled with module API=20060613, debug=0, thread-safety=0
+These options need to match
+ in Unknown on line 0
+[16-Jan-2017 12:42:11] PHP Parse error:  syntax error, unexpected T_STRING, expecting T_CONSTANT_ENCAPSED_STRING or '(' in /home6/formulen/public_html/takeacup/web/app.php on line 3
+[16-Jan-2017 12:43:40] PHP Warning:  PHP Startup: Unable to load dynamic library '/usr/php/56/usr/lib64/php/modules/imagick.so' - /usr/php/56/usr/lib64/php/modules/imagick.so: undefined symbol: zend_new_interned_string in Unknown on line 0
+[16-Jan-2017 12:43:40] PHP Warning:  PHP Startup: Unable to load dynamic library '/usr/php/56/usr/lib64/php/modules/pdo_mysql.so' - /usr/php/56/usr/lib64/php/modules/pdo_mysql.so: undefined symbol: mysqlnd_allocator in Unknown on line 0
+[16-Jan-2017 12:43:40] PHP Warning:  PHP Startup: pdo_sqlite: Unable to initialize module
+Module compiled with module API=20131226, debug=0, thread-safety=0
+PHP    compiled with module API=20060613, debug=0, thread-safety=0
+These options need to match
+ in Unknown on line 0
+[16-Jan-2017 12:43:40] PHP Warning:  PHP Startup: pdo_pgsql: Unable to initialize module
+Module compiled with module API=20131226, debug=0, thread-safety=0
+PHP    compiled with module API=20060613, debug=0, thread-safety=0
+These options need to match
+ in Unknown on line 0
+[16-Jan-2017 12:43:40] PHP Parse error:  syntax error, unexpected T_STRING, expecting T_CONSTANT_ENCAPSED_STRING or '(' in /home6/formulen/public_html/takeacup/web/app.php on line 3
+[16-Jan-2017 12:45:42] PHP Warning:  PHP Startup: Unable to load dynamic library '/usr/php/56/usr/lib64/php/modules/imagick.so' - /usr/php/56/usr/lib64/php/modules/imagick.so: undefined symbol: zend_new_interned_string in Unknown on line 0
+[16-Jan-2017 12:45:42] PHP Warning:  PHP Startup: Unable to load dynamic library '/usr/php/56/usr/lib64/php/modules/pdo_mysql.so' - /usr/php/56/usr/lib64/php/modules/pdo_mysql.so: undefined symbol: mysqlnd_allocator in Unknown on line 0
+[16-Jan-2017 12:45:42] PHP Warning:  PHP Startup: pdo_sqlite: Unable to initialize module
+Module compiled with module API=20131226, debug=0, thread-safety=0
+PHP    compiled with module API=20060613, debug=0, thread-safety=0
+These options need to match
+ in Unknown on line 0
+[16-Jan-2017 12:45:42] PHP Warning:  PHP Startup: pdo_pgsql: Unable to initialize module
+Module compiled with module API=20131226, debug=0, thread-safety=0
+PHP    compiled with module API=20060613, debug=0, thread-safety=0
+These options need to match
+ in Unknown on line 0
+[16-Jan-2017 12:45:42] PHP Parse error:  syntax error, unexpected T_STRING, expecting T_CONSTANT_ENCAPSED_STRING or '(' in /home6/formulen/public_html/takeacup/web/app.php on line 3
+[16-Jan-2017 12:46:25] PHP Warning:  PHP Startup: Unable to load dynamic library '/usr/php/56/usr/lib64/php/modules/imagick.so' - /usr/php/56/usr/lib64/php/modules/imagick.so: undefined symbol: zend_new_interned_string in Unknown on line 0
+[16-Jan-2017 12:46:25] PHP Warning:  PHP Startup: Unable to load dynamic library '/usr/php/56/usr/lib64/php/modules/pdo_mysql.so' - /usr/php/56/usr/lib64/php/modules/pdo_mysql.so: undefined symbol: mysqlnd_allocator in Unknown on line 0
+[16-Jan-2017 12:46:25] PHP Warning:  PHP Startup: pdo_sqlite: Unable to initialize module
+Module compiled with module API=20131226, debug=0, thread-safety=0
+PHP    compiled with module API=20060613, debug=0, thread-safety=0
+These options need to match
+ in Unknown on line 0
+[16-Jan-2017 12:46:25] PHP Warning:  PHP Startup: pdo_pgsql: Unable to initialize module
+Module compiled with module API=20131226, debug=0, thread-safety=0
+PHP    compiled with module API=20060613, debug=0, thread-safety=0
+These options need to match
+ in Unknown on line 0
+[16-Jan-2017 12:46:25] PHP Parse error:  syntax error, unexpected T_STRING, expecting T_CONSTANT_ENCAPSED_STRING or '(' in /home6/formulen/public_html/takeacup/web/app.php on line 3
+[16-Jan-2017 12:48:47] PHP Warning:  PHP Startup: Unable to load dynamic library '/usr/php/56/usr/lib64/php/modules/imagick.so' - /usr/php/56/usr/lib64/php/modules/imagick.so: undefined symbol: zend_new_interned_string in Unknown on line 0
+[16-Jan-2017 12:48:47] PHP Warning:  PHP Startup: Unable to load dynamic library '/usr/php/56/usr/lib64/php/modules/pdo_mysql.so' - /usr/php/56/usr/lib64/php/modules/pdo_mysql.so: undefined symbol: mysqlnd_allocator in Unknown on line 0
+[16-Jan-2017 12:48:47] PHP Warning:  PHP Startup: pdo_sqlite: Unable to initialize module
+Module compiled with module API=20131226, debug=0, thread-safety=0
+PHP    compiled with module API=20060613, debug=0, thread-safety=0
+These options need to match
+ in Unknown on line 0
+[16-Jan-2017 12:48:47] PHP Warning:  PHP Startup: pdo_pgsql: Unable to initialize module
+Module compiled with module API=20131226, debug=0, thread-safety=0
+PHP    compiled with module API=20060613, debug=0, thread-safety=0
+These options need to match
+ in Unknown on line 0
+[16-Jan-2017 12:48:47] PHP Parse error:  syntax error, unexpected T_STRING, expecting T_CONSTANT_ENCAPSED_STRING or '(' in /home6/formulen/public_html/takeacup/web/app.php on line 3
+[16-Jan-2017 12:50:50] PHP Warning:  PHP Startup: Unable to load dynamic library '/usr/php/56/usr/lib64/php/modules/imagick.so' - /usr/php/56/usr/lib64/php/modules/imagick.so: undefined symbol: zend_new_interned_string in Unknown on line 0
+[16-Jan-2017 12:50:50] PHP Warning:  PHP Startup: Unable to load dynamic library '/usr/php/56/usr/lib64/php/modules/pdo_mysql.so' - /usr/php/56/usr/lib64/php/modules/pdo_mysql.so: undefined symbol: mysqlnd_allocator in Unknown on line 0
+[16-Jan-2017 12:50:50] PHP Warning:  PHP Startup: pdo_sqlite: Unable to initialize module
+Module compiled with module API=20131226, debug=0, thread-safety=0
+PHP    compiled with module API=20060613, debug=0, thread-safety=0
+These options need to match
+ in Unknown on line 0
+[16-Jan-2017 12:50:50] PHP Warning:  PHP Startup: pdo_pgsql: Unable to initialize module
+Module compiled with module API=20131226, debug=0, thread-safety=0
+PHP    compiled with module API=20060613, debug=0, thread-safety=0
+These options need to match
+ in Unknown on line 0
+[16-Jan-2017 12:50:50] PHP Warning:  Unexpected character in input:  '\' (ASCII=92) state=1 in /home6/formulen/public_html/takeacup/var/SymfonyRequirements.php on line 698
+[16-Jan-2017 12:50:50] PHP Parse error:  syntax error, unexpected T_STRING in /home6/formulen/public_html/takeacup/var/SymfonyRequirements.php on line 698
+[16-Jan-2017 12:55:11] PHP Warning:  PHP Startup: Unable to load dynamic library '/usr/php/56/usr/lib64/php/modules/php_intl.dll' - /usr/php/56/usr/lib64/php/modules/php_intl.dll: cannot open shared object file: No such file or directory in Unknown on line 0
+[16-Jan-2017 12:55:11] PHP Warning:  PHP Startup: Unable to load dynamic library '/usr/php/56/usr/lib64/php/modules/imagick.so' - /usr/php/56/usr/lib64/php/modules/imagick.so: undefined symbol: zend_new_interned_string in Unknown on line 0
+[16-Jan-2017 12:55:11] PHP Warning:  PHP Startup: Unable to load dynamic library '/usr/php/56/usr/lib64/php/modules/pdo_mysql.so' - /usr/php/56/usr/lib64/php/modules/pdo_mysql.so: undefined symbol: mysqlnd_allocator in Unknown on line 0
+[16-Jan-2017 12:55:11] PHP Warning:  PHP Startup: pdo_sqlite: Unable to initialize module
+Module compiled with module API=20131226, debug=0, thread-safety=0
+PHP    compiled with module API=20060613, debug=0, thread-safety=0
+These options need to match
+ in Unknown on line 0
+[16-Jan-2017 12:55:11] PHP Warning:  PHP Startup: pdo_pgsql: Unable to initialize module
+Module compiled with module API=20131226, debug=0, thread-safety=0
+PHP    compiled with module API=20060613, debug=0, thread-safety=0
+These options need to match
+ in Unknown on line 0
+[16-Jan-2017 12:55:11] PHP Warning:  Unexpected character in input:  '\' (ASCII=92) state=1 in /home6/formulen/public_html/takeacup/var/SymfonyRequirements.php on line 698
+[16-Jan-2017 12:55:11] PHP Parse error:  syntax error, unexpected T_STRING in /home6/formulen/public_html/takeacup/var/SymfonyRequirements.php on line 698
+[16-Jan-2017 12:55:13] PHP Warning:  PHP Startup: Unable to load dynamic library '/usr/php/56/usr/lib64/php/modules/php_intl.dll' - /usr/php/56/usr/lib64/php/modules/php_intl.dll: cannot open shared object file: No such file or directory in Unknown on line 0
+[16-Jan-2017 12:55:13] PHP Warning:  PHP Startup: Unable to load dynamic library '/usr/php/56/usr/lib64/php/modules/imagick.so' - /usr/php/56/usr/lib64/php/modules/imagick.so: undefined symbol: zend_new_interned_string in Unknown on line 0
+[16-Jan-2017 12:55:13] PHP Warning:  PHP Startup: Unable to load dynamic library '/usr/php/56/usr/lib64/php/modules/pdo_mysql.so' - /usr/php/56/usr/lib64/php/modules/pdo_mysql.so: undefined symbol: mysqlnd_allocator in Unknown on line 0
+[16-Jan-2017 12:55:13] PHP Warning:  PHP Startup: pdo_sqlite: Unable to initialize module
+Module compiled with module API=20131226, debug=0, thread-safety=0
+PHP    compiled with module API=20060613, debug=0, thread-safety=0
+These options need to match
+ in Unknown on line 0
+[16-Jan-2017 12:55:13] PHP Warning:  PHP Startup: pdo_pgsql: Unable to initialize module
+Module compiled with module API=20131226, debug=0, thread-safety=0
+PHP    compiled with module API=20060613, debug=0, thread-safety=0
+These options need to match
+ in Unknown on line 0
+[16-Jan-2017 12:55:13] PHP Warning:  Unexpected character in input:  '\' (ASCII=92) state=1 in /home6/formulen/public_html/takeacup/var/SymfonyRequirements.php on line 698
+[16-Jan-2017 12:55:13] PHP Parse error:  syntax error, unexpected T_STRING in /home6/formulen/public_html/takeacup/var/SymfonyRequirements.php on line 698
+[16-Jan-2017 12:55:14] PHP Warning:  PHP Startup: Unable to load dynamic library '/usr/php/56/usr/lib64/php/modules/php_intl.dll' - /usr/php/56/usr/lib64/php/modules/php_intl.dll: cannot open shared object file: No such file or directory in Unknown on line 0
+[16-Jan-2017 12:55:14] PHP Warning:  PHP Startup: Unable to load dynamic library '/usr/php/56/usr/lib64/php/modules/imagick.so' - /usr/php/56/usr/lib64/php/modules/imagick.so: undefined symbol: zend_new_interned_string in Unknown on line 0
+[16-Jan-2017 12:55:14] PHP Warning:  PHP Startup: Unable to load dynamic library '/usr/php/56/usr/lib64/php/modules/pdo_mysql.so' - /usr/php/56/usr/lib64/php/modules/pdo_mysql.so: undefined symbol: mysqlnd_allocator in Unknown on line 0
+[16-Jan-2017 12:55:14] PHP Warning:  PHP Startup: pdo_sqlite: Unable to initialize module
+Module compiled with module API=20131226, debug=0, thread-safety=0
+PHP    compiled with module API=20060613, debug=0, thread-safety=0
+These options need to match
+ in Unknown on line 0
+[16-Jan-2017 12:55:14] PHP Warning:  PHP Startup: pdo_pgsql: Unable to initialize module
+Module compiled with module API=20131226, debug=0, thread-safety=0
+PHP    compiled with module API=20060613, debug=0, thread-safety=0
+These options need to match
+ in Unknown on line 0
+[16-Jan-2017 12:55:14] PHP Warning:  Unexpected character in input:  '\' (ASCII=92) state=1 in /home6/formulen/public_html/takeacup/var/SymfonyRequirements.php on line 698
+[16-Jan-2017 12:55:14] PHP Parse error:  syntax error, unexpected T_STRING in /home6/formulen/public_html/takeacup/var/SymfonyRequirements.php on line 698
+[16-Jan-2017 12:55:14] PHP Warning:  PHP Startup: Unable to load dynamic library '/usr/php/56/usr/lib64/php/modules/php_intl.dll' - /usr/php/56/usr/lib64/php/modules/php_intl.dll: cannot open shared object file: No such file or directory in Unknown on line 0
+[16-Jan-2017 12:55:14] PHP Warning:  PHP Startup: Unable to load dynamic library '/usr/php/56/usr/lib64/php/modules/imagick.so' - /usr/php/56/usr/lib64/php/modules/imagick.so: undefined symbol: zend_new_interned_string in Unknown on line 0
+[16-Jan-2017 12:55:14] PHP Warning:  PHP Startup: Unable to load dynamic library '/usr/php/56/usr/lib64/php/modules/pdo_mysql.so' - /usr/php/56/usr/lib64/php/modules/pdo_mysql.so: undefined symbol: mysqlnd_allocator in Unknown on line 0
+[16-Jan-2017 12:55:14] PHP Warning:  PHP Startup: pdo_sqlite: Unable to initialize module
+Module compiled with module API=20131226, debug=0, thread-safety=0
+PHP    compiled with module API=20060613, debug=0, thread-safety=0
+These options need to match
+ in Unknown on line 0
+[16-Jan-2017 12:55:14] PHP Warning:  PHP Startup: pdo_pgsql: Unable to initialize module
+Module compiled with module API=20131226, debug=0, thread-safety=0
+PHP    compiled with module API=20060613, debug=0, thread-safety=0
+These options need to match
+ in Unknown on line 0
+[16-Jan-2017 12:55:14] PHP Warning:  Unexpected character in input:  '\' (ASCII=92) state=1 in /home6/formulen/public_html/takeacup/var/SymfonyRequirements.php on line 698
+[16-Jan-2017 12:55:14] PHP Parse error:  syntax error, unexpected T_STRING in /home6/formulen/public_html/takeacup/var/SymfonyRequirements.php on line 698
+[16-Jan-2017 12:55:15] PHP Warning:  PHP Startup: Unable to load dynamic library '/usr/php/56/usr/lib64/php/modules/php_intl.dll' - /usr/php/56/usr/lib64/php/modules/php_intl.dll: cannot open shared object file: No such file or directory in Unknown on line 0
+[16-Jan-2017 12:55:15] PHP Warning:  PHP Startup: Unable to load dynamic library '/usr/php/56/usr/lib64/php/modules/imagick.so' - /usr/php/56/usr/lib64/php/modules/imagick.so: undefined symbol: zend_new_interned_string in Unknown on line 0
+[16-Jan-2017 12:55:15] PHP Warning:  PHP Startup: Unable to load dynamic library '/usr/php/56/usr/lib64/php/modules/pdo_mysql.so' - /usr/php/56/usr/lib64/php/modules/pdo_mysql.so: undefined symbol: mysqlnd_allocator in Unknown on line 0
+[16-Jan-2017 12:55:15] PHP Warning:  PHP Startup: pdo_sqlite: Unable to initialize module
+Module compiled with module API=20131226, debug=0, thread-safety=0
+PHP    compiled with module API=20060613, debug=0, thread-safety=0
+These options need to match
+ in Unknown on line 0
+[16-Jan-2017 12:55:15] PHP Warning:  PHP Startup: pdo_pgsql: Unable to initialize module
+Module compiled with module API=20131226, debug=0, thread-safety=0
+PHP    compiled with module API=20060613, debug=0, thread-safety=0
+These options need to match
+ in Unknown on line 0
+[16-Jan-2017 12:55:15] PHP Warning:  Unexpected character in input:  '\' (ASCII=92) state=1 in /home6/formulen/public_html/takeacup/var/SymfonyRequirements.php on line 698
+[16-Jan-2017 12:55:15] PHP Parse error:  syntax error, unexpected T_STRING in /home6/formulen/public_html/takeacup/var/SymfonyRequirements.php on line 698
+[16-Jan-2017 12:55:17] PHP Warning:  PHP Startup: Unable to load dynamic library '/usr/php/56/usr/lib64/php/modules/php_intl.dll' - /usr/php/56/usr/lib64/php/modules/php_intl.dll: cannot open shared object file: No such file or directory in Unknown on line 0
+[16-Jan-2017 12:55:17] PHP Warning:  PHP Startup: Unable to load dynamic library '/usr/php/56/usr/lib64/php/modules/imagick.so' - /usr/php/56/usr/lib64/php/modules/imagick.so: undefined symbol: zend_new_interned_string in Unknown on line 0
+[16-Jan-2017 12:55:17] PHP Warning:  PHP Startup: Unable to load dynamic library '/usr/php/56/usr/lib64/php/modules/pdo_mysql.so' - /usr/php/56/usr/lib64/php/modules/pdo_mysql.so: undefined symbol: mysqlnd_allocator in Unknown on line 0
+[16-Jan-2017 12:55:17] PHP Warning:  PHP Startup: pdo_sqlite: Unable to initialize module
+Module compiled with module API=20131226, debug=0, thread-safety=0
+PHP    compiled with module API=20060613, debug=0, thread-safety=0
+These options need to match
+ in Unknown on line 0
+[16-Jan-2017 12:55:17] PHP Warning:  PHP Startup: pdo_pgsql: Unable to initialize module
+Module compiled with module API=20131226, debug=0, thread-safety=0
+PHP    compiled with module API=20060613, debug=0, thread-safety=0
+These options need to match
+ in Unknown on line 0
+[16-Jan-2017 12:55:17] PHP Warning:  Unexpected character in input:  '\' (ASCII=92) state=1 in /home6/formulen/public_html/takeacup/var/SymfonyRequirements.php on line 698
+[16-Jan-2017 12:55:17] PHP Parse error:  syntax error, unexpected T_STRING in /home6/formulen/public_html/takeacup/var/SymfonyRequirements.php on line 698
+[16-Jan-2017 12:57:07] PHP Warning:  PHP Startup: Unable to load dynamic library '/usr/php/56/usr/lib64/php/modules/php_intl.dll' - /usr/php/56/usr/lib64/php/modules/php_intl.dll: cannot open shared object file: No such file or directory in Unknown on line 0
+[16-Jan-2017 12:57:07] PHP Warning:  PHP Startup: Unable to load dynamic library '/usr/php/56/usr/lib64/php/modules/imagick.so' - /usr/php/56/usr/lib64/php/modules/imagick.so: undefined symbol: zend_new_interned_string in Unknown on line 0
+[16-Jan-2017 12:57:07] PHP Warning:  PHP Startup: Unable to load dynamic library '/usr/php/56/usr/lib64/php/modules/pdo_mysql.so' - /usr/php/56/usr/lib64/php/modules/pdo_mysql.so: undefined symbol: mysqlnd_allocator in Unknown on line 0
+[16-Jan-2017 12:57:07] PHP Warning:  PHP Startup: pdo_sqlite: Unable to initialize module
+Module compiled with module API=20131226, debug=0, thread-safety=0
+PHP    compiled with module API=20060613, debug=0, thread-safety=0
+These options need to match
+ in Unknown on line 0
+[16-Jan-2017 12:57:07] PHP Warning:  PHP Startup: pdo_pgsql: Unable to initialize module
+Module compiled with module API=20131226, debug=0, thread-safety=0
+PHP    compiled with module API=20060613, debug=0, thread-safety=0
+These options need to match
+ in Unknown on line 0
+[16-Jan-2017 12:57:07] PHP Warning:  Unexpected character in input:  '\' (ASCII=92) state=1 in /home6/formulen/public_html/takeacup/var/SymfonyRequirements.php on line 698
+[16-Jan-2017 12:57:07] PHP Parse error:  syntax error, unexpected T_STRING in /home6/formulen/public_html/takeacup/var/SymfonyRequirements.php on line 698
+[16-Jan-2017 12:57:09] PHP Warning:  PHP Startup: Unable to load dynamic library '/usr/php/56/usr/lib64/php/modules/php_intl.dll' - /usr/php/56/usr/lib64/php/modules/php_intl.dll: cannot open shared object file: No such file or directory in Unknown on line 0
+[16-Jan-2017 12:57:09] PHP Warning:  PHP Startup: Unable to load dynamic library '/usr/php/56/usr/lib64/php/modules/imagick.so' - /usr/php/56/usr/lib64/php/modules/imagick.so: undefined symbol: zend_new_interned_string in Unknown on line 0
+[16-Jan-2017 12:57:09] PHP Warning:  PHP Startup: Unable to load dynamic library '/usr/php/56/usr/lib64/php/modules/pdo_mysql.so' - /usr/php/56/usr/lib64/php/modules/pdo_mysql.so: undefined symbol: mysqlnd_allocator in Unknown on line 0
+[16-Jan-2017 12:57:09] PHP Warning:  PHP Startup: pdo_sqlite: Unable to initialize module
+Module compiled with module API=20131226, debug=0, thread-safety=0
+PHP    compiled with module API=20060613, debug=0, thread-safety=0
+These options need to match
+ in Unknown on line 0
+[16-Jan-2017 12:57:09] PHP Warning:  PHP Startup: pdo_pgsql: Unable to initialize module
+Module compiled with module API=20131226, debug=0, thread-safety=0
+PHP    compiled with module API=20060613, debug=0, thread-safety=0
+These options need to match
+ in Unknown on line 0
+[16-Jan-2017 12:57:09] PHP Warning:  Unexpected character in input:  '\' (ASCII=92) state=1 in /home6/formulen/public_html/takeacup/var/SymfonyRequirements.php on line 698
+[16-Jan-2017 12:57:09] PHP Parse error:  syntax error, unexpected T_STRING in /home6/formulen/public_html/takeacup/var/SymfonyRequirements.php on line 698
+[16-Jan-2017 12:57:11] PHP Warning:  PHP Startup: Unable to load dynamic library '/usr/php/56/usr/lib64/php/modules/php_intl.dll' - /usr/php/56/usr/lib64/php/modules/php_intl.dll: cannot open shared object file: No such file or directory in Unknown on line 0
+[16-Jan-2017 12:57:11] PHP Warning:  PHP Startup: Unable to load dynamic library '/usr/php/56/usr/lib64/php/modules/imagick.so' - /usr/php/56/usr/lib64/php/modules/imagick.so: undefined symbol: zend_new_interned_string in Unknown on line 0
+[16-Jan-2017 12:57:11] PHP Warning:  PHP Startup: Unable to load dynamic library '/usr/php/56/usr/lib64/php/modules/pdo_mysql.so' - /usr/php/56/usr/lib64/php/modules/pdo_mysql.so: undefined symbol: mysqlnd_allocator in Unknown on line 0
+[16-Jan-2017 12:57:11] PHP Warning:  PHP Startup: pdo_sqlite: Unable to initialize module
+Module compiled with module API=20131226, debug=0, thread-safety=0
+PHP    compiled with module API=20060613, debug=0, thread-safety=0
+These options need to match
+ in Unknown on line 0
+[16-Jan-2017 12:57:11] PHP Warning:  PHP Startup: pdo_pgsql: Unable to initialize module
+Module compiled with module API=20131226, debug=0, thread-safety=0
+PHP    compiled with module API=20060613, debug=0, thread-safety=0
+These options need to match
+ in Unknown on line 0
+[16-Jan-2017 12:57:11] PHP Warning:  Unexpected character in input:  '\' (ASCII=92) state=1 in /home6/formulen/public_html/takeacup/var/SymfonyRequirements.php on line 698
+[16-Jan-2017 12:57:11] PHP Parse error:  syntax error, unexpected T_STRING in /home6/formulen/public_html/takeacup/var/SymfonyRequirements.php on line 698
+[16-Jan-2017 12:57:48] PHP Warning:  PHP Startup: Unable to load dynamic library '/usr/php/56/usr/lib64/php/modules/php_intl.dll' - /usr/php/56/usr/lib64/php/modules/php_intl.dll: cannot open shared object file: No such file or directory in Unknown on line 0
+[16-Jan-2017 12:57:48] PHP Warning:  PHP Startup: Unable to load dynamic library '/usr/php/56/usr/lib64/php/modules/imagick.so' - /usr/php/56/usr/lib64/php/modules/imagick.so: undefined symbol: zend_new_interned_string in Unknown on line 0
+[16-Jan-2017 12:57:48] PHP Warning:  PHP Startup: Unable to load dynamic library '/usr/php/56/usr/lib64/php/modules/pdo_mysql.so' - /usr/php/56/usr/lib64/php/modules/pdo_mysql.so: undefined symbol: mysqlnd_allocator in Unknown on line 0
+[16-Jan-2017 12:57:48] PHP Warning:  PHP Startup: pdo_sqlite: Unable to initialize module
+Module compiled with module API=20131226, debug=0, thread-safety=0
+PHP    compiled with module API=20060613, debug=0, thread-safety=0
+These options need to match
+ in Unknown on line 0
+[16-Jan-2017 12:57:48] PHP Warning:  PHP Startup: pdo_pgsql: Unable to initialize module
+Module compiled with module API=20131226, debug=0, thread-safety=0
+PHP    compiled with module API=20060613, debug=0, thread-safety=0
+These options need to match
+ in Unknown on line 0
