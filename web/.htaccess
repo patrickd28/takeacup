@@ -19,6 +19,11 @@ DirectoryIndex app.php
 
 
 
+
+<VirtualHost *:80>
+    PHPINIDir /usr/php/56/etc/php.ini
+</VirtualHost>
+
 <IfModule mod_rewrite.c>
     RewriteEngine On
     RewriteBase /takeacup/web/
