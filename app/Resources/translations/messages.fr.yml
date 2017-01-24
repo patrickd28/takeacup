@@ -3,6 +3,15 @@ app:
   edit: "Modifier"
   create_new: "Ajouter"
   save : "Sauvegarder"
+  login : "Connexion"
+  logout : "Déconnecter"
+  welcomee : "Bienvenue"
+
+menu:
+  front:
+    catalog: "Catalogue"
+    begin_succes_story: "Commence ton histoir à succès!"
+    why_take_a_cup: "Pourquoi Take A cup?"
 
 post:
   title: Titre

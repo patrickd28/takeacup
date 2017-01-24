@@ -3,6 +3,16 @@ app:
   edit: "Edit"
   create_new: "Create a new entry"
   save : "Save"
+  login : "Login"
+  logout : "Logout"
+  welcomee : "Welcome"
+
+menu:
+  front:
+    catalog: "Catalog"
+    begin_succes_story: "Begin your success story!"
+    why_take_a_cup: "Why Take A Cup?!"
+    why_take_a_cup: "Why Take A Cup?!"
 
 post:
   title: Title

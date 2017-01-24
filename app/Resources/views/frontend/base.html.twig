@@ -1,7 +1,5 @@
 {% extends 'base.html.twig' %}
 
-
-
 {% block body %}
     <nav class="navbar navbar-inverse">
         <div class="container-fluid">
@@ -15,20 +13,31 @@
             </div>
             <div class="collapse navbar-collapse" id="myNavbar">
                 <ul class="nav navbar-nav">
-                    <li class="active"><a href="#">Catalog</a></li>
-                    <li><a href="#">Begin your success story!</a></li>
-                    <li><a href="#">Why Take A Cup?!</a></li>
+                    <li class="active"><a href="#">{{ 'menu.front.catalog'|trans }}</a></li>
+                    <li><a href="#">{{ 'menu.front.begin_succes_story'|trans }}</a></li>
+                    <li><a href="#">{{ "menu.front.why_take_a_cup"|trans }}</a></li>
                     <li><a href="#">FAQ</a></li>
                 </ul>
-
+                <ul class="nav navbar-nav navbar-right">
+                    {% set url_arr = { '_locale': 'en' } %}
+                    {% set lang_label = "EN" %}
+                    {% if (app.session.get('_locale') == 'en') %}
+                        {% set url_arr = { '_locale': 'fr' } %}
+                        {% set lang_label = "FR" %}
+                    {% endif %}
+                    {% if (app.request.get('_route_params')) %}
+                        {% set url_arr = app.request.get('_route_params')|merge(url_arr)  %}
+                    {% endif %}
+                    <li><a href="{{ path(app.request.get('_route'), url_arr) }}">{{ lang_label }}</a></li>
+                </ul>
                 {% if (app.user) %}
                     <ul class="nav navbar-nav navbar-right">
-                        <li><a>Welcome {{ app.user.name }}</a></li>
-                        <li><a href="{{ path('signout') }}"><span class="glyphicon glyphicon-log-out"></span> Logout</a></li>
+                        <li><a>{{ 'app.welcomee'|trans }} {{ app.user.name }}</a></li>
+                        <li><a href="{{ path('signout') }}"><span class="glyphicon glyphicon-log-out"></span> {{ 'app.logout'|trans }}</a></li>
                     </ul>
                 {% else %}
                     <ul class="nav navbar-nav navbar-right">
-                        <li><a href="{{ path('login') }}"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
+                        <li><a href="{{ path('login') }}"><span class="glyphicon glyphicon-log-in"></span> {{ 'app.login'|trans }}</a></li>
                     </ul>
                 {% endif %}
 
