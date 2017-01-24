@@ -1,0 +1,16 @@
+{% extends ':admin:index.html.twig' %}
+{% import "macros.html" as macros %}
+{% form_theme form 'bootstrap_3_layout.html.twig' %}
+{% block body_row %}
+    <div class="col-sm-8 text-left">
+        <div class="pull-right">
+            {{ macros.back_to_list('user_index') }}
+        </div>
+        <h1>User creation</h1>
+
+        {{ form_start(form) }}
+            {{ form_widget(form) }}
+            {{ macros.save() }}
+        {{ form_end(form) }}
+    </div>
+{% endblock %}

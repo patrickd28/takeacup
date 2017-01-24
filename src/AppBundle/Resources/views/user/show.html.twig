@@ -1,0 +1,49 @@
+{% extends ':admin:index.html.twig' %}
+{% import "macros.html" as macros %}
+{% block body_row %}
+<div class="col-sm-8 text-left">
+    <div class="pull-right">
+        {{ macros.back_to_list('user_index') }}
+    </div>
+
+    <h1>User</h1>
+
+    <table class="table table-bordered table-striped">
+        <tbody>
+            <tr>
+                <th>Id</th>
+                <td>{{ user.id }}</td>
+            </tr>
+            <tr>
+                <th>Name</th>
+                <td>{{ user.name }}</td>
+            </tr>
+            <tr>
+                <th>Email</th>
+                <td>{{ user.email }}</td>
+            </tr>
+            <tr>
+                <th>Email confirmed</th>
+                <td>
+                    {% if user.isConfirmEmail %}
+                            <span class="glyphicon glyphicon-ok"></span>
+                        {% else %}
+                            <span class="glyphicon glyphicon-minus-sign"></span>
+                    {% endif %}
+                </td>
+            </tr>
+            {% for role in user.getRoles() %}
+                <tr>
+                    <th>Role(s)</th>
+                    <td>{{ role.role }}</td>
+                </tr>
+            {% endfor %}
+        </tbody>
+    </table>
+
+    {{ form_start(delete_form) }}
+        {{ macros.edit('user_edit', user.id) }}
+        <input class="btn btn-danger" type="submit" value="Delete">
+    {{ form_end(delete_form) }}
+</div>
+{% endblock %}
