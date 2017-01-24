@@ -32,6 +32,7 @@
                 </ul>
                 {% if (app.user) %}
                     <ul class="nav navbar-nav navbar-right">
+                        <li><a href="{{ path('admin') }}">Admin</a></li>
                         <li><a>{{ 'app.welcomee'|trans }} {{ app.user.name }}</a></li>
                         <li><a href="{{ path('signout') }}"><span class="glyphicon glyphicon-log-out"></span> {{ 'app.logout'|trans }}</a></li>
                     </ul>
