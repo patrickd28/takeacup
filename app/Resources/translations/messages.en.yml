@@ -1,0 +1,22 @@
+app:
+  back_to_list: "Back to the list"
+  edit: "Edit"
+  create_new: "Create a new entry"
+  save : "Save"
+
+post:
+  title: Title
+  description : Description
+  postList : Post list
+
+email:
+  register:
+    success: Register with success
+
+form:
+  site:
+    logo : Logo
+    enabled : Enabled
+
+  user:
+    save : Save

@@ -1,0 +1,22 @@
+app:
+  back_to_list: "Retour à la liste"
+  edit: "Modifier"
+  create_new: "Ajouter"
+  save : "Sauvegarder"
+
+post:
+  title: Titre
+  description : Description
+  postList : Liste des articles
+
+email:
+  register:
+    success: Inscription réussie
+
+form:
+  site:
+    logo : Logo
+    enabled : Enabled
+
+  user:
+    save : Save

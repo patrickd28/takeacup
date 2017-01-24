@@ -1,0 +1,29 @@
+{% macro back_to_list(route_name) %}
+    <a class="btn btn-default" href="{{ path(route_name) }}">{% trans %}app.back_to_list{% endtrans %}</a>
+{% endmacro %}
+
+{% macro edit(route_name, id) %}
+    <a class="btn btn-primary" href="{{ path(route_name, { 'id': id }) }}">{% trans %}app.edit{% endtrans %}</a>
+{% endmacro %}
+
+{% macro create_new_entry(route_name, id) %}
+    <a class="btn btn-primary" href="{{ path(route_name) }}">{% trans %}app.create_new{% endtrans %}</a>
+{% endmacro %}
+
+{% macro save(route_name) %}
+    <input class="btn btn-primary" type="submit" value="{% trans %}app.save{% endtrans %}" />
+{% endmacro %}
+
+{% macro post_row(post, update) %}
+    <tr id="post-row-{{ post.id }}" class="post-{{ update }}">
+        <td><a href="{{ path('post_show', { 'id': post.id }) }}">{{ post.id }}</a></td>
+        <td>{{ post.title }}</td>
+        <td>{{ post.description }}</td>
+        <td>
+            <div class="pull-right">
+                <a class="btn btn-default" href="{{ path('post_show', { 'id': post.id }) }}">show</a>
+                <a class="btn btn-default" href="{{ path('post_edit', { 'id': post.id }) }}">edit</a>
+            </div>
+        </td>
+    </tr>
+{% endmacro %}
