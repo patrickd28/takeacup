@@ -33,16 +33,16 @@
                 fjs.parentNode.insertBefore(js, fjs);
             }(document, 'script', 'facebook-jssdk'));
 
-            $(document).ready(function() {
-                window.fbAsyncInit = function() {
-                    FB.init({
-                        appId      : '1890241481205007',
-                        xfbml      : true,
-                        version    : 'v2.8'
-                    });
-                    FB.AppEvents.logPageView();
-                };
-            });
+            window.fbAsyncInit = function() {
+                FB.init({
+                    appId      : '1890241481205007',
+                    xfbml      : true,
+                    version    : 'v2.8'
+                });
+                $(document).trigger('fbload');
+            };
+
+
         </script>
         {% block body %}{% endblock %}
         {% block javascripts %}
