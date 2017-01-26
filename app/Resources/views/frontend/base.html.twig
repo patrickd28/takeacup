@@ -68,9 +68,13 @@
         function testAPI() {
             FB.api('/me', function(response) {
                 document.getElementById('fb-login-status').innerHTML =
-                        'Thanks for logging in, ' + response.name + '!';
+                        'FB login : ' + response.name + '!';
             });
         }
+
+        $(document).ready(function () {
+            testAPI();
+        });
 
     </script>
 
