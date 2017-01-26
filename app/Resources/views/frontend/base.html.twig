@@ -38,6 +38,7 @@
                     </ul>
                 {% else %}
                     <ul class="nav navbar-nav navbar-right">
+                        <li><span id="fb-login-status"></span></li>
                         <li><a href="{{ path('login') }}"><span class="glyphicon glyphicon-log-in"></span> {{ 'app.login'|trans }}</a></li>
                     </ul>
                 {% endif %}
@@ -57,5 +58,20 @@
             {% endblock %}
         </p>
     </footer>
+{% endblock %}
+
+{% block javascripts %}
+    {{ parent() }}
+    <script>
+        // Here we run a very simple test of the Graph API after login is
+        // successful.  See statusChangeCallback() for when this call is made.
+        function testAPI() {
+            FB.api('/me', function(response) {
+                document.getElementById('fb-login-status').innerHTML =
+                        'Thanks for logging in, ' + response.name + '!';
+            });
+        }
+
+    </script>
 
 {% endblock %}
