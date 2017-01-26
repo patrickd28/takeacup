@@ -3,14 +3,12 @@
 
 {% block body %}
     {{ parent() }}
-
     <div class="jumbotron">
         <div class="container text-center">
             <h1>Take A Cup</h1>
             <p>Be social with us...</p>
         </div>
     </div>
-
     <div class="container-fluid bg-3 text-center">
         {% for flashMessage in app.session.flashbag.get('notice') %}
             <div class="alert alert-info">
@@ -77,7 +75,20 @@
             </div>
         </div>
     </div><br><br>
-
+    <div class="fb-follow"
+         data-href="{{ path('homepage') }}"
+         data-layout="standard"
+         data-size="small"
+         data-show-faces="true">
+    </div>
+    <div class="fb-like"
+         data-href="{{ path('homepage') }}"
+         data-layout="standard"
+         data-action="like"
+         data-size="small"
+         data-show-faces="true"
+         data-share="true">
+    </div>
     <footer class="container-fluid text-center">
         <p>Footer Text</p>
     </footer>

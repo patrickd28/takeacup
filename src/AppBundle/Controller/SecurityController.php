@@ -58,4 +58,13 @@ class SecurityController extends Controller
         // this action is never executed
     }
 
+    /**
+     * @Route("/login-facebook", name="login_facebook")
+     * @Method("GET")
+     */
+    public function loginFacebookAction()
+    {
+        return $this->render('AppBundle:security:login_facebook.html.twig');
+    }
+
 }

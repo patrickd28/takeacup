@@ -1,27 +1,50 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <meta charset="UTF-8" />
+        <meta charset="UTF-8"/>
         <title>{% block title %}Welcome!{% endblock %}</title>
 
         <meta name="viewport" content="width=device-width, user-scalable=no">
 
         {% block stylesheets %}
-            <link href="https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,700italic,400,300,700" rel="stylesheet">
-            <link rel="stylesheet" type="text/css" href="{{ asset('css/takeacup.min.css') }}" />
+            <link href="https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,700italic,400,300,700"
+                  rel="stylesheet">
+            <link rel="stylesheet" type="text/css" href="{{ asset('css/takeacup.min.css') }}"/>
         {% endblock %}
 
         {% block head_javascripts %}
             <script src="{{ asset('js/jquery.min.js') }}"></script>
             <script src="{{ asset('js/bootstrap.min.js') }}"></script>
+
         {% endblock %}
 
 
-        <link rel="icon" type="image/x-icon" href="{{ asset('favicon.ico') }}" />
+        <link rel="icon" type="image/x-icon" href="{{ asset('favicon.ico') }}"/>
     </head>
     <body>
-        {% block body %}{% endblock %}
+        <div id="fb-root"></div>
+        <script>
+            (function (d, s, id) {
+                var js, fjs = d.getElementsByTagName(s)[0];
+                if (d.getElementById(id)) return;
+                js = d.createElement(s);
+                js.id = id;
+                js.src = "//connect.facebook.net/fr_FR/sdk.js#xfbml=1&version=v2.8&appId=1890241481205007";
+                fjs.parentNode.insertBefore(js, fjs);
+            }(document, 'script', 'facebook-jssdk'));
 
+            $(document).ready(function() {
+                window.fbAsyncInit = function() {
+                    FB.init({
+                        appId      : '1890241481205007',
+                        xfbml      : true,
+                        version    : 'v2.8'
+                    });
+                    FB.AppEvents.logPageView();
+                };
+            });
+        </script>
+        {% block body %}{% endblock %}
         {% block javascripts %}
             <script src="{{ asset('js/takeacup.min.js') }}"></script>
         {% endblock %}
